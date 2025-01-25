@@ -1,0 +1,9 @@
+The program works (mostly) as expected. The only errors are minor output formatting errors that were
+easily fixed.
+
+The extra credit methods can duplicate and print the llists properly, so they seem to function fine.
+The tests can be found as comments in the llist destructor.
+
+I noticed that when you choose the add option, you cannot quit until the user interface does
+everything it needs to there. Maybe some way to exit out would be nice, if you were to accidentally
+type in a task that you don't want to actually do.

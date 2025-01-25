@@ -1,0 +1,117 @@
+Script started on Tue 23 Apr 2024 03:37:17 PM HST
+]0;jvmito@uhx02:~/project2[?1034huhx02:/home/j/jvmito/project2% ./project
+Entered User Interface. Welcome.
+
+Choose an action by typing its name or shorthand.
+add: Add a new record to the database.
+printall: Prints all records in the database.
+find: Finds the record with the specified account number.
+delete: Deletes a record with the specified account number.
+quit: Quit the program.
+add
+
+
+Enter account number: 432
+Enter account holder's name Justin Mito
+Enter address. Press enter twice to finish:
+Here    MyHome
+SomeStree
+CA
+
+Record added
+Entered User Interface. Welcome.
+
+Choose an action by typing its name or shorthand.
+add: Add a new record to the database.
+printall: Prints all records in the database.
+find: Finds the record with the specified account number.
+delete: Deletes a record with the specified account number.
+quit: Quit the program.
+add
+
+
+Enter account number: 1
+Enter account holder's name Yu oi urName
+Enter address. Press enter twice to finish:
+Here
+There
+
+Record added
+Entered User Interface. Welcome.
+
+Choose an action by typing its name or shorthand.
+add: Add a new record to the database.
+printall: Prints all records in the database.
+find: Finds the record with the specified account number.
+delete: Deletes a record with the specified account number.
+quit: Quit the program.
+p
+
+
+Account#: 1
+Name: YourName
+Address: Here
+There
+
+Account#: 432
+Name: Justin Mito
+Address: MyHome
+SomeStree
+CA
+
+Entered User Interface. Welcome.
+
+Choose an action by typing its name or shorthand.
+add: Add a new record to the database.
+printall: Prints all records in the database.
+find: Finds the record with the specified account number.
+delete: Deletes a record with the specified account number.
+quit: Quit the program.
+q
+
+
+]0;jvmito@uhx02:~/project2uhx02:/home/j/jvmito/project2% ./project_debug
+Debug mode: called llist with no parameters
+Debug mode: called readfile with no parameters
+Debug Mode enabled
+Entered User Interface. Welcome.
+
+Choose an action by typing its name or shorthand.
+add: Add a new record to the database.
+printall: Prints all records in the database.
+find: Finds the record with the specified account number.
+delete: Deletes a record with the specified account number.
+quit: Quit the program.
+print
+
+
+Debug mode: Called printAllRecords with no parameters
+Account#: 1
+Name: YourName
+Address: Here
+There
+
+Account#: 432
+Name: Justin Mito
+Address: MyHome
+SomeStree
+CA
+
+Entered User Interface. Welcome.
+
+Choose an action by typing its name or shorthand.
+add: Add a new record to the database.
+printall: Prints all records in the database.
+find: Finds the record with the specified account number.
+delete: Deletes a record with the specified account number.
+quit: Quit the program.
+q
+
+
+Debug mode: called ~llist with no parameters
+Debug mode: called cleanup with no parameters
+Debug mode: called writefile with no parameters
+]0;jvmito@uhx02:~/project2uhx02:/home/j/jvmito/project2% exit
+exit
+
+Script done on Tue 23 Apr 2024 03:38:08 PM HST
